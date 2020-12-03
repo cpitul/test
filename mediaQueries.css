@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px) {
+  .navbar {
+    flex: 2;
+  }
+
+  .section-1 {
+    flex: 8;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-title {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-list {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .navbar-list {
+    width: 90%;
+  }
+}
